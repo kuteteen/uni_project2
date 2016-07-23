@@ -1,3 +1,7 @@
+<?php
+//Use of sessions to maintain state.
+session_start();
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -7,6 +11,7 @@
     <body>
 		<nav id="menu">
 			<?php
+			//Main navigation menu
 			include 'includes/menu.php';
 			?>	
 		</nav>
